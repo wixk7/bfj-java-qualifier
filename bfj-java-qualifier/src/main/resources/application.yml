@@ -1,0 +1,12 @@
+app:
+  name: "Sai Sathwik Matury"
+  regNo: "22BRS1018"
+  email: "sathwik.790@gmail.com"
+
+logging:
+  level:
+    root: INFO
+
+spring:
+  main:
+    web-application-type: none

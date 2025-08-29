@@ -1,0 +1,7 @@
+com\example\bfj\dto\SubmitRequest.class
+com\example\bfj\BfjJavaQualifierApplication.class
+com\example\bfj\AppProperties.class
+com\example\bfj\dto\GenerateWebhookResponse.class
+com\example\bfj\AppConfig.class
+com\example\bfj\HiringClient.class
+com\example\bfj\dto\GenerateWebhookRequest.class
