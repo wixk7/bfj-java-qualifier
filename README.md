@@ -1,4 +1,3 @@
-# Bajaj Finserv Submission  
 # Bajaj Finserv Qualifier Submission – SQL Question 2 (Java Track)
 
 **Question 2:**  
