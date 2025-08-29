@@ -88,6 +88,7 @@ src/
 ├── pom.xml # Maven dependencies
 └── README.md 
 ```
+
 ---
 
 ## How to Run
@@ -108,6 +109,33 @@ mvn spring-boot:run
 mvn clean package
 java -jar target/bfj-java-qualifier-1.0.0.jar
 ```
+
+---
+
+## JAR File
+
+The application can be packaged as an executable **JAR** file for easy distribution and execution.  
+
+### Build JAR
+Run the following command to build the JAR file:
+
+```bash
+mvn clean package
+```
+
+This will generate a JAR in the `target/` directory, for example:
+```bash
+target/bfj-java-qualifier-1.0.0.jar
+```
+
+### Run JAR
+
+You can run the packaged JAR directly with:
+
+```bash
+java -jar target/bfj-java-qualifier-1.0.0.jar
+```
+
 ---
 
 ## Expected Output
@@ -123,6 +151,7 @@ Submitting SQL...
 Submission response: {"success":true,"message":"Webhook processed successfully"}
 Done.
 ```
+
 ---
 
 ## SQL Query (Question 2)
@@ -144,6 +173,7 @@ JOIN DEPARTMENT d
   ON d.DEPARTMENT_ID = e.DEPARTMENT
 ORDER BY e.EMP_ID DESC;
 ```
+
 ---
 
 ## Notes
@@ -152,4 +182,7 @@ ORDER BY e.EMP_ID DESC;
 - No controllers or manual endpoints are exposed  
 - Uses **Spring WebClient** for HTTP communication  
 - JWT token is automatically included in the `Authorization` header  
-- SQL query is also saved locally in **`final-sql-question2.sql`** 
+- SQL query is also saved locally in **`final-sql-question2.sql`**
+
+---
+
